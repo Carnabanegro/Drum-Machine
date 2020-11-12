@@ -1,0 +1,90 @@
+
+body{
+  background-color: #192a56;
+  margin: 10px 0;
+}
+
+.App{
+  display: flex;
+  padding: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.display-container{
+  border-width: 10px;
+  border-style:solid;
+  border-color:#718093;
+  background-color: #2f3640;
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width:  600px;
+  justify-content: left;
+}
+
+.menu{
+  display: flex;
+  width: 30%;
+  color: aliceblue;
+  flex-direction: column;
+  justify-content:space-evenly ;
+  
+}
+
+  .buttons-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width:  70%;
+ 
+}
+#drum-machine{
+  width: 70%;
+}
+
+.drum-pad-container{
+  display: flex;
+  flex-wrap:wrap
+}
+.text-style{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 150% ;
+}
+.display-drum{
+  border-width: 10px;
+  border-style:solid;
+  border-color:#718093;
+  background-color: #2f3640;
+  margin: 10px;
+  display: flex;
+  height:10%;
+  width:  80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pad:hover{
+  background-color:#718093;
+  
+}
+
+.drum-pad{
+  height:  125px;
+  width: 125px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:white;
+  background-color:#487eb0;
+  font-size: 300%;
+  transition-duration: 1s;
+  border-color:#353b48;
+  border-radius: 30%;
+  border-width: 2px ;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+
