@@ -112,7 +112,6 @@ class  DrumPad extends React.Component {
           <Slider
             volume={typeof volumeInput === "number" ? this.state.volumeInput : 0}
             onChange={this.volumeHandler}
-            aria-
           />
         </div>
       </div>
